@@ -72,15 +72,13 @@ public class exCA01 {
 				//점수는 랜덤하게 생성해서 전달
 				Random r = new Random();
 				int hakbun = 1001;
-				int score = r.nextInt(100)+1;
+				int score;
 				for (Student1 student : studentArray) {
+					score = r.nextInt(100)+1;
 					student.setData(hakbun, score);
-					hakbun++;
-				}
-				
-				//출력을 위해서는 메서드 필요
-				for (Student1 student : studentArray) {
 					student.printData();
+					hakbun++;
+					
 				}
 	}
 }

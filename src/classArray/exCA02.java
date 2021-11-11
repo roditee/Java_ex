@@ -26,6 +26,7 @@ class Student2 {
 		this.subjectArray = new Subject2[3];
 	}
 }
+
 public class exCA02 {
 	public static void main(String[] args) {
 		
@@ -79,12 +80,6 @@ public class exCA02 {
 		for (Subject2 sub:jang.subjectArray) {
 			System.out.printf("과목 : %s, 점수 : %d\n", sub.name, sub.score );
 		}
-		//총 3과목의 점수를 입력받기 위해서 미리 배열 생성
-		//학생 객체별로 점수를 저장할 수 있는 메모리 생성
-		//객체 하나씩 꺼내와서 처리
-//		for (Student2 student : arr) {
-//			student.subjectArray
-//		}
 	}
 
 }

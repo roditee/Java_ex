@@ -2,10 +2,10 @@ package classArray;
 
 import java.util.Scanner;
 
-class Person3{
+class PersonOld{
 	private int age;
 	
-	public Person3(int initalAge) {
+	public PersonOld(int initalAge) {
 		this.age = initalAge;
 	}
 	
@@ -19,18 +19,18 @@ class Person3{
 		this.age++;
 	}
 }
-public class ClassVsInstance {
+public class getOld {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
 		for (int i=0; i<T; i++) {
 			int age = sc.nextInt();
-			Person3 p = new Person3(age);
+			PersonOld p = new PersonOld(age);
 			p.amIOld();
 			for (int j=0; j<3; j++) {
 				p.yearPasses();
-			}
+			}//3»μ Αυ°‘
 			p.amIOld();
 			System.out.println();
 		}
