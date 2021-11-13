@@ -36,7 +36,7 @@ Scanner scan = new Scanner(System.in);
 		//   이영희 : 과목1개 수학 100
 		
 		Student3re [] stdList = new Student3re[3];
-				
+		
 		while (true) {
 			System.out.println("[1]학생 추가하기");		// 이름 입력받아 추가
 			System.out.println("[2]과목 추가하기");		// 이름과 과목 입력받아 추가
