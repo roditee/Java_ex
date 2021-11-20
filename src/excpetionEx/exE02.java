@@ -29,5 +29,6 @@ public class exE02 {
 		}
 		System.out.println(num);
 	}
+	
 
 }
