@@ -111,8 +111,11 @@ public class exCA03Answer {
 					stdList[select].subjectArray[size].name = subject;
 				}
 			}
-			else if (choice == 3) {}			
+			else if (choice == 3) {}
+			
+			scan.close();
 		}
+		
 	}
 
 }

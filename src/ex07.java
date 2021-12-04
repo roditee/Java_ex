@@ -17,6 +17,7 @@ public class ex07 {
 			}
 			else System.out.println("놀이기구 이용이 불가능합니다.");
 		}
+		scan.close();
 	}
 
 }

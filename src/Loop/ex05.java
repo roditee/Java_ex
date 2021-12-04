@@ -57,6 +57,7 @@ public class ex05 {
 		}
 		System.out.printf("Á¡¼ö : %d", score);
 		
+		scan.close();
 	}
 
 }

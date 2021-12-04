@@ -1,7 +1,5 @@
 package classArray;
 
-import java.util.*;
-
 class Bird extends Animal {
 	
 	void fly() {

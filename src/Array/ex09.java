@@ -62,5 +62,7 @@ public class ex09 {
 		}
 		arr[idx] = val;
 		System.out.println(Arrays.toString(arr));
+		
+		s.close();
 	}
 }

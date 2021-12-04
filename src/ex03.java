@@ -12,6 +12,8 @@ public class ex03 {
 		
 		if ((dbid == myid) && (dbpw == mypw)) System.out.println("로그인성공");
 		else System.out.println("로그인실패");
+		
+		s.close();
 	}
 
 }

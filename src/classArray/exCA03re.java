@@ -77,6 +77,8 @@ Scanner scan = new Scanner(System.in);
 				}
 			else break;
 		}//whlie
+		
+		scan.close();
 	}
 
 }

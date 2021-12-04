@@ -47,7 +47,7 @@ public class MyStack {
 		else return stackArr[top];
 	}
 	
-	// 스택 내용을 비우는 clear() {
+	// 스택 내용을 비우는 clear()
 	public void clear() {
 		top = -1;
 	}

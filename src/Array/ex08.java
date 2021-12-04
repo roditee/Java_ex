@@ -75,5 +75,7 @@ public class ex08 {
 			if (game[2] == 1 && game[4] == 1 && game[6] == 1) win= 1;
 			if (game[2] == 2 && game[4] == 2 && game[6] == 2) win= 2;
 		} //whlie
+		
+		s.close();
 	}
 }

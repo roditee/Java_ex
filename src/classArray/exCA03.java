@@ -37,6 +37,8 @@ public class exCA03 {
 			if		(choice == 1) {}
 			else if (choice == 2) {}
 			else if (choice == 3) {}
+			
+			scan.close();
 		}
 	}
 }

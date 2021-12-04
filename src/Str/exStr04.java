@@ -1,7 +1,5 @@
 package Str;
 
-import java.util.Arrays;
-
 public class exStr04 {
 
 	public static void main(String[] args) {

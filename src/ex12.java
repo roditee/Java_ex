@@ -23,6 +23,7 @@ public class ex12 {
 		}
 		else {System.out.print("계좌번호가 일치하지 않습니다.");}
 		
+		scan.close();
 	}
 
 }

@@ -10,5 +10,7 @@ public class ex06 {
 		if (score>=60 && score<=100) System.out.print("합격입니다.");
 		else if (score<=60 && score>=0) System.out.print("불합격입니다.");
 		else System.out.print("성적을 잘못 입력했습니다.");
+		
+		scan.close();
 	}
 }

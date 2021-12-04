@@ -12,7 +12,8 @@ public class ex11 {
 		int answer = scan.nextInt();
 		if (answer == coin) System.out.printf("정답 = %d. 맞았습니다!", coin);
 		else System.out.printf("정답 = %d. 땡!", coin);
-
+		
+		scan.close();
 	}
 
 }

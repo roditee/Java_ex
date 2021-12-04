@@ -12,5 +12,7 @@ public class ex01 {
 		if (me < com) { System.out.println("Up!");}
 		else if(me > com) { System.out.println("Down!"); }
 		else { System.out.println("Bingo!"); }
+		
+		scan.close();
 	}
 }

@@ -10,7 +10,8 @@ public class ex02 {
 		if (com>me) System.out.println("내가 졌다.");
 		else if (com<me) System.out.println("내가 이겼다.");
 		else System.out.println("비겼다.");
-
+		
+		s.close();
 	}
 
 }

@@ -1,7 +1,6 @@
 package Loop;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class ex12 {
 	public static void main(String[] args) {

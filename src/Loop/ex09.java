@@ -19,5 +19,7 @@ public class ex09 {
 		}
 		if (cnt == 2) System.out.printf("%d는 소수입니다.", n);
 		else System.out.printf("%d는 소수가 아닙니다.", n);
+		
+		s.close();
 	}
 }

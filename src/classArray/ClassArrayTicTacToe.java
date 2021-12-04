@@ -112,5 +112,6 @@ Scanner sc = new Scanner(System.in);
 			}
 			play.checkBoard();
 		}
+		sc.close();
 	}
 }

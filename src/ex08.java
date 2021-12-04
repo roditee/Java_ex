@@ -20,6 +20,8 @@ public class ex08 {
 			else System.out.print("PW를 확인해주세요");
 		}
 		else System.out.print("ID를 확인해주세요");
+		
+		scan.close();
 	}
 
 }

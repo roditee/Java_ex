@@ -16,6 +16,8 @@ public class ex10 {
 			iter--;
 		}
 		System.out.print(max);
+		
+		scan.close();
 	}
 
 }

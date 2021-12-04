@@ -20,5 +20,7 @@ public class ex16 {
 			}
 			n++; //n++ 왜 해주지?
 		}
+		
+		s.close();
 	}
 }

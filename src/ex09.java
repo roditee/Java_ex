@@ -27,6 +27,8 @@ public class ex09 {
 		
 		if (charge>=0) System.out.printf("%d번 메뉴 주문. 잔돈은 %d원 입니다.", menu_num, charge);
 		else System.out.print("현금이 부족합니다.");
+		
+		scan.close();
 	}
 
 }

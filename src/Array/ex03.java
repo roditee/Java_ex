@@ -26,6 +26,7 @@ public class ex03 {
 		
 		System.out.print("학번 입력 : ");
 		int h = s.nextInt();
+		s.close();
 		for (i=0; i<H.length; i++) {
 			if (H[i] == h) System.out.println(score[i]);
 		}

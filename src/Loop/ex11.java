@@ -16,5 +16,7 @@ public class ex11 {
 		}
 		if (cnt == 2) { System.out.print(j+" "); }
 		}
+		
+		scan.close();
 	}
 }

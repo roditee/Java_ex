@@ -20,6 +20,8 @@ public class exStr06 {
 		if (cnt == 0) System.out.println("문자만 있습니다.");
 		else if (cnt == text.length()) System.out.println("숫자만 있습니다.");
 		else System.out.println("문자와 숫자가 섞여있습니다.");
+		
+		s.close();
 	}
 
 }

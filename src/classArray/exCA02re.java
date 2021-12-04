@@ -1,7 +1,6 @@
 package classArray;
 
 import java.util.Arrays;
-import java.util.Random;
 
 //has-a
 //과목별 점수

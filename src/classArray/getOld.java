@@ -34,5 +34,6 @@ public class getOld {
 			p.amIOld();
 			System.out.println();
 		}
+		sc.close();
 	}
 }

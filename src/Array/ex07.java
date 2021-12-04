@@ -1,6 +1,5 @@
 package Array;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ex07 {
@@ -54,6 +53,8 @@ public class ex07 {
 				
 			}
 			System.out.println();
+			
+			sc.close();
 		}
 	}
 }

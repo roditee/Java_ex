@@ -25,6 +25,8 @@ public class ex04 {
 		if( dbId == myId && dbPw == myPw ) { System.out.println("로그인 성공"); }
 		else { System.out.println("로그인 실패"); }
 		//문자열 비교에는 equlas 사용. dbId.equals(myId)로 비교
+		
+		scan.close();
 
 	}
 }

@@ -31,5 +31,7 @@ public class ex07 {
 			}
 		} // while
 		System.out.printf("제 점수는요 %d점 입니다\n", score);
+		
+		scan.close();
 	}
 }

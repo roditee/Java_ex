@@ -26,5 +26,7 @@ public class ex10 {
 //		if (max < z) {max = z;}
 //		이렇게도 가능
 		System.out.print(max);
+		
+		scan.close();
 	}
 }

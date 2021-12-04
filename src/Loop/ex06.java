@@ -15,6 +15,8 @@ public class ex06 {
 //			if (n==-100) return; //main메서드의 종료는 프로그램의 실행 종료와 동일
 //			if (n==-100) System.exit(0);; //main메서드의 종료는 프로그램의 실행 종료와 동일. exit의 매개변수 = 종료코드
 		}
+		
+		s.close();
 	}
 
 }

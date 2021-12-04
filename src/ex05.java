@@ -18,5 +18,7 @@ public class ex05 {
 		
 		if( ans == myAns ) { System.out.println("Á¤´ä!");}
 		else { System.out.println("¶¯!!!!!");}
+		
+		scan.close();
 	}
 }
